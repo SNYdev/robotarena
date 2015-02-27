@@ -37,9 +37,7 @@ class Roger implements RobotInterface{
       if(( ($val != "." ) or ($val != "x")) and ($val != $this->data[2][2])) {
 
 
-
-
-            if (($this->data[0][2] == "A") or ($this->data[0][2] == 'B')){ return RobotOrder::FIRE; }
+    if (($this->data[0][2] == "A") or ($this->data[0][2] == 'B')){ return RobotOrder::FIRE; }
 
     if (($this->data[0][0] == 'A') or ($this->data[0][1] == 'B')) {
 
